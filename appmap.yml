@@ -8,5 +8,4 @@ script:
 - bundle exec rspec spec
 
 after_script:
-- env DEBUG=true ruby ./upload-appmaps tmp/appmap/rspec
-
+- env DEBUG=true ruby ./upload-appmaps tmp/appmap/rspec/*

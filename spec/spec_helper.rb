@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require 'appmap/rspec'
+
 require 'rspec/expectations'
 require 'webdrivers' if ENV['CI'] || ENV['WEBDRIVERS']
 require 'selenium_statistics'
